@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Tu Estudio Contable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Manrope:wght@400;500;700&display=swap">
+<style>
+  :root { --fondo:#ffffff; --sup:#f4f6f5; --tinta:#14201b; --suave:#5b6962; --linea:#e2e8e5; --acento:#1565C0; }
+  * { box-sizing: border-box; margin: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--fondo); color: var(--tinta); font: 16px/1.6 'Manrope', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: 'Bricolage Grotesque', system-ui, sans-serif; line-height: 1.1; letter-spacing: -0.02em; }
+  .envase { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+  header { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--fondo) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--linea); }
+  header .envase { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .marca { display: flex; align-items: center; gap: 10px; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: 18px; }
+  .logo { width: 34px; height: 34px; border-radius: 10px; background: var(--acento); color: #fff; display: grid; place-items: center; font-size: 14px; }
+  .boton { display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: var(--acento); color: #fff; border: 0; border-radius: 999px; padding: 14px 26px; font: 600 15px 'Manrope', system-ui, sans-serif; text-decoration: none; cursor: pointer; transition: transform .15s, filter .15s; }
+  .boton:hover { transform: translateY(-1px); filter: brightness(1.08); }
+  .boton.chico { padding: 9px 16px; font-size: 14px; }
+  .boton.fantasma { background: transparent; color: var(--tinta); border: 1.5px solid var(--linea); }
+  .boton.ancho { width: 100%; margin-top: 22px; }
+  .hero { padding: 88px 0 72px; position: relative; overflow: hidden; }
+  .hero::after { content: ""; position: absolute; right: -120px; top: -80px; width: 460px; height: 460px; border-radius: 50%; background: radial-gradient(circle, color-mix(in srgb, var(--acento) 35%, transparent), transparent 70%); pointer-events: none; }
+  .etiqueta { color: var(--acento); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .12em; margin-bottom: 14px; }
+  .hero h1 { font-size: clamp(42px, 8vw, 84px); max-width: 12ch; }
+  .hero p.bajada { font-size: clamp(17px, 2.2vw, 20px); color: var(--suave); max-width: 46ch; margin: 22px 0 32px; }
+  .acciones { display: flex; gap: 12px; flex-wrap: wrap; }
+  .datos { display: flex; gap: 28px; flex-wrap: wrap; margin-top: 48px; color: var(--suave); font-size: 14px; }
+  .datos b { display: block; color: var(--tinta); font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-size: 26px; }
+  .bloque { padding: 72px 0; border-top: 1px solid var(--linea); }
+  .bloque h2 { font-size: clamp(30px, 4.5vw, 44px); margin-bottom: 36px; max-width: 20ch; }
+  .grilla { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+  .servicio { background: var(--sup); border: 1px solid var(--linea); border-radius: 20px; padding: 26px; }
+  .servicio .num { color: var(--acento); font-weight: 700; font-size: 14px; }
+  .servicio h3 { font-size: 22px; margin: 14px 0 8px; }
+  .servicio p { color: var(--suave); font-size: 15px; }
+  .producto { background: var(--sup); border: 1px solid var(--linea); border-radius: 20px; padding: 14px 14px 18px; }
+  .producto .foto { aspect-ratio: 4/3; border-radius: 14px; display: grid; place-items: center; background: linear-gradient(var(--g), color-mix(in srgb, var(--acento) 80%, #000), color-mix(in srgb, var(--acento) 35%, var(--sup))); color: #fff; font: 700 34px 'Bricolage Grotesque', system-ui, sans-serif; margin-bottom: 14px; }
+  .producto h3 { font-size: 18px; }
+  .producto .precio { color: var(--suave); margin: 4px 0 12px; }
+  .reserva { background: var(--sup); border: 1px solid var(--linea); border-radius: 24px; padding: 28px; max-width: 560px; }
+  .reserva label { display: grid; gap: 8px; font-weight: 600; }
+  .reserva select { font: inherit; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--linea); background: var(--fondo); color: var(--tinta); }
+  .mini { font-weight: 600; margin: 20px 0 10px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { font: 500 14px 'Manrope', system-ui, sans-serif; padding: 9px 14px; border-radius: 999px; border: 1px solid var(--linea); background: var(--fondo); color: var(--tinta); cursor: pointer; }
+  .chip.on { background: var(--acento); border-color: var(--acento); color: #fff; }
+  .chip.ocupado { opacity: .35; text-decoration: line-through; cursor: not-allowed; }
+  .carrito { position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); display: flex; align-items: center; gap: 16px; background: var(--tinta); color: var(--fondo); padding: 10px 10px 10px 22px; border-radius: 999px; box-shadow: 0 12px 40px rgba(0,0,0,.25); font-weight: 600; z-index: 6; }
+  .contacto { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .contacto div { background: var(--sup); border: 1px solid var(--linea); border-radius: 20px; padding: 22px; }
+  .contacto small { color: var(--suave); display: block; margin-bottom: 4px; }
+  footer { padding: 36px 0 90px; color: var(--suave); font-size: 13px; text-align: center; border-top: 1px solid var(--linea); }
+  @media (max-width: 560px) { .hero { padding: 56px 0 48px; } .bloque { padding: 56px 0; } header .boton { display: none; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="envase">
+    <div class="marca"><span class="logo">TE</span>Tu Estudio Contable</div>
+    <a class="boton chico" href="https://wa.me/?text=Hola!%20Quer%C3%ADa%20hacer%20una%20consulta.">Escribinos</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="envase">
+    <p class="etiqueta">contabilidad y asesoría fiscal</p>
+    <h1>Tus cuentas claras, sin complicaciones</h1>
+    <p class="bajada">Asesoría contable e impositiva para particulares y pequeñas empresas.</p>
+    <div class="acciones">
+      <a class="boton" href="https://wa.me/?text=Hola!%20Quer%C3%ADa%20hacer%20una%20consulta.">Escribinos</a>
+      <a class="boton fantasma" href="#servicios">Conocé más</a>
+    </div>
+    <div class="datos"><span><b>+200</b>clientes asesorados</span><span><b>+10</b>años de trayectoria</span><span><b>100%</b>trámites al día</span></div>
+  </div>
+</section>
+
+<section class="bloque" id="servicios">
+  <div class="envase">
+    <p class="etiqueta">Lo que hacemos</p>
+    <h2>Servicios</h2>
+    <div class="grilla">
+        <article class="servicio">
+          <span class="num">01</span>
+          <h3>Liquidación de impuestos</h3>
+          <p>Gestión de monotributo, autónomos y régimen general.</p>
+        </article>
+        <article class="servicio">
+          <span class="num">02</span>
+          <h3>Asesoría a pymes</h3>
+          <p>Acompañamiento contable para negocios en crecimiento.</p>
+        </article>
+        <article class="servicio">
+          <span class="num">03</span>
+          <h3>Constitución de sociedades</h3>
+          <p>Te ayudamos a formalizar tu empresa paso a paso.</p>
+        </article></div>
+  </div>
+</section>
+
+<section class="bloque">
+  <div class="envase">
+    <p class="etiqueta">Contacto</p>
+    <h2>Estamos para ayudarte</h2>
+    <div class="contacto">
+      <div><small>WhatsApp</small><b>Respondemos en el día</b></div>
+      <div><small>Horarios</small><b>Lunes a viernes de 9 a 18 hs</b></div>
+      <div><small>Dónde estamos</small><b>Tu ciudad</b></div>
+    </div>
+  </div>
+</section>
+
+<footer>Muestra de diseño hecha para Tu Estudio Contable · textos y datos de ejemplo</footer>
+</body>
+</html>
