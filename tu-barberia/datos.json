@@ -1,0 +1,44 @@
+{
+ "tipo": "turnos",
+ "nombre": "Tu Barbería",
+ "rubro": "Barbería",
+ "ciudad": null,
+ "estilo": "moderno",
+ "acento": "#B08D57",
+ "eslogan": "Reservá tu turno en segundos",
+ "descripcion": "Sistema de turnos online para que los clientes elijan día y horario sin llamar ni esperar.",
+ "titulo_servicios": "Nuestros servicios",
+ "servicios": [
+  {
+   "titulo": "Corte clásico",
+   "detalle": "Corte a tijera y máquina, incluye lavado."
+  },
+  {
+   "titulo": "Arreglo de barba",
+   "detalle": "Perfilado y afeitado con navaja."
+  },
+  {
+   "titulo": "Corte + Barba",
+   "detalle": "El combo completo para salir impecable."
+  },
+  {
+   "titulo": "Turno online",
+   "detalle": "Reservá tu horario desde el celular, sin esperas."
+  }
+ ],
+ "datos": [
+  {
+   "valor": "+1000",
+   "texto": "cortes realizados"
+  },
+  {
+   "valor": "+15",
+   "texto": "años de experiencia"
+  },
+  {
+   "valor": "4.9★",
+   "texto": "calificación promedio"
+  }
+ ],
+ "horarios": "Martes a sábado de 10 a 20hs"
+}

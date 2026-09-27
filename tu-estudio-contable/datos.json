@@ -1,0 +1,44 @@
+{
+ "tipo": "landing",
+ "nombre": "Tu Estudio Contable",
+ "rubro": "Estudio contable",
+ "ciudad": null,
+ "estilo": "fresco",
+ "acento": "#2E86AB",
+ "eslogan": "Contabilidad clara para tu negocio",
+ "descripcion": "Asesoramiento contable e impositivo para empresas y monotributistas, con atención personalizada.",
+ "titulo_servicios": "Nuestros servicios",
+ "servicios": [
+  {
+   "titulo": "Monotributo y autónomos",
+   "detalle": "Alta, categorización y liquidaciones al día."
+  },
+  {
+   "titulo": "Contabilidad de empresas",
+   "detalle": "Balances, libros y presentaciones ante AFIP."
+  },
+  {
+   "titulo": "Liquidación de sueldos",
+   "detalle": "Gestión completa de nómina y cargas sociales."
+  },
+  {
+   "titulo": "Asesoramiento impositivo",
+   "detalle": "Te ayudamos a elegir el régimen más conveniente."
+  }
+ ],
+ "datos": [
+  {
+   "valor": "+200",
+   "texto": "clientes activos"
+  },
+  {
+   "valor": "+10",
+   "texto": "años de trayectoria"
+  },
+  {
+   "valor": "100%",
+   "texto": "trámites online"
+  }
+ ],
+ "horarios": "Lunes a viernes de 9 a 17hs"
+}

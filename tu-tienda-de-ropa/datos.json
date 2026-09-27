@@ -1,0 +1,70 @@
+{
+ "tipo": "catalogo",
+ "nombre": "Tu Tienda de Ropa",
+ "rubro": "Indumentaria",
+ "ciudad": null,
+ "estilo": "moderno",
+ "acento": "#E91E63",
+ "eslogan": "Vestí tu estilo, pedilo por WhatsApp",
+ "descripcion": "Catálogo online de la tienda con las últimas prendas, para que elijas y pidas directo por WhatsApp sin vueltas.",
+ "titulo_servicios": "Beneficios de comprar con nosotros",
+ "servicios": [
+  {
+   "titulo": "Pedido por WhatsApp",
+   "detalle": "Elegís tus prendas y coordinás el pedido al instante."
+  },
+  {
+   "titulo": "Cambios y devoluciones",
+   "detalle": "Si no te queda como esperabas, lo solucionamos rápido."
+  },
+  {
+   "titulo": "Envíos a todo el país",
+   "detalle": "Recibí tu pedido donde estés, con seguimiento."
+  },
+  {
+   "titulo": "Nuevas colecciones",
+   "detalle": "Renovamos el catálogo todas las semanas."
+  }
+ ],
+ "productos": [
+  {
+   "nombre": "Remera oversize",
+   "precio": "$14.500"
+  },
+  {
+   "nombre": "Jean recto",
+   "precio": "$28.900"
+  },
+  {
+   "nombre": "Buzo canguro",
+   "precio": "$24.500"
+  },
+  {
+   "nombre": "Campera de abrigo",
+   "precio": "$45.900"
+  },
+  {
+   "nombre": "Vestido casual",
+   "precio": "$22.300"
+  },
+  {
+   "nombre": "Conjunto deportivo",
+   "precio": "$32.000"
+  }
+ ],
+ "datos": [
+  {
+   "valor": "+300",
+   "texto": "prendas en catálogo"
+  },
+  {
+   "valor": "+150",
+   "texto": "clientas felices"
+  },
+  {
+   "valor": "24hs",
+   "texto": "para coordinar tu pedido"
+  }
+ ],
+ "horarios": "Lunes a sábado de 10 a 20hs"
+}

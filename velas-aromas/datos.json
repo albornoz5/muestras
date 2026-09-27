@@ -1,0 +1,70 @@
+{
+ "tipo": "catalogo",
+ "nombre": "Velas & Aromas",
+ "rubro": "Velas y aromas artesanales",
+ "ciudad": "Rosario",
+ "estilo": "calido",
+ "acento": "#C97B4A",
+ "eslogan": "Velas artesanales que perfuman tu hogar",
+ "descripcion": "Catálogo de velas aromáticas y difusores artesanales, hechos a mano en Rosario, con envíos a todo el país.",
+ "titulo_servicios": "Por qué elegir nuestras velas",
+ "servicios": [
+  {
+   "titulo": "Hechas a mano",
+   "detalle": "Cada vela se elabora artesanalmente con ceras naturales."
+  },
+  {
+   "titulo": "Envíos a domicilio",
+   "detalle": "Despachamos a todo Rosario y el resto del país."
+  },
+  {
+   "titulo": "Aromas exclusivos",
+   "detalle": "Fragancias propias que no vas a encontrar en otro lado."
+  },
+  {
+   "titulo": "Compra online fácil",
+   "detalle": "Elegís, pagás y coordinás la entrega en minutos."
+  }
+ ],
+ "productos": [
+  {
+   "nombre": "Vela aromática mediana",
+   "precio": "$8.500"
+  },
+  {
+   "nombre": "Vela de soja grande",
+   "precio": "$12.900"
+  },
+  {
+   "nombre": "Difusor de ambientes",
+   "precio": "$9.800"
+  },
+  {
+   "nombre": "Set x3 velas mini",
+   "precio": "$14.500"
+  },
+  {
+   "nombre": "Vela en frasco de vidrio",
+   "precio": "$10.200"
+  },
+  {
+   "nombre": "Sahumerio artesanal x6",
+   "precio": "$4.900"
+  }
+ ],
+ "datos": [
+  {
+   "valor": "+80",
+   "texto": "aromas disponibles"
+  },
+  {
+   "valor": "+500",
+   "texto": "velas vendidas"
+  },
+  {
+   "valor": "100%",
+   "texto": "artesanal"
+  }
+ ],
+ "horarios": "Lunes a viernes de 9 a 18hs"
+}
